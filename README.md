@@ -42,7 +42,8 @@ Ao finalizar o desenvolvimento você pode compartilhar o cÃ³digo pelo Github o
  
 ## Solução
 
-Buscou-se um algoritmo simples dividido em 2 etapadas:
+Buscou-se um algoritmo simples dividido em 2 etapa:
+
 1. Indexar os caracteres do Stream
 2. Identificar o primeiro que possui apena uma ocorrência
 
