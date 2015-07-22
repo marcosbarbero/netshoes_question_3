@@ -6,13 +6,13 @@ package br.com.netshoes.netshoes.question3;
  * @author Marcos Salomão (salomao.marcos@gmail.com).
  */
 @SuppressWarnings("serial")
-public class CharNotFoundException extends Exception {
+public class UniqueCharNotFoundException extends Exception {
 
     /**
      * Construtor padrão.
      */
-    public CharNotFoundException() {
-	super("Durante a análise não foi encontrato caracter que não tivesse repetição.");
+    public UniqueCharNotFoundException() {
+    	super("Durante a análise não foi encontrato caracter com apenas uma ocorrência.");
     }
     
 }
